@@ -198,6 +198,8 @@
         const output = document.getElementById('imagePreview');
         output.src = reader.result;
         output.style.display = 'block';
+        const fileName = event.target.files[0].name;
+            alert(fileName + ' đã được chọn!');
     };
     reader.readAsDataURL(event.target.files[0]);
 }
