@@ -214,6 +214,9 @@ tbody tr.hide td img {
 .status.trongquatrinhtrano {
     background-color: #ebc474;
 }
+.status.chitiet {
+    background-color: #eb74e3;
+}
 
 .status.shipped {
     background-color: #6fcaea;
@@ -336,3 +339,19 @@ thead th.active,tbody td.active {
     width: 2rem;
     height: auto;
 }
+.details-button {
+    background: linear-gradient(to right, #4CAF50, #2E7D32);
+    border: none;
+    color: white;
+    padding: 10px 40px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; 
+}
+.details-button:hover {
+    background: linear-gradient(to right, #2E7D32, #4CAF50); 
+}
+
